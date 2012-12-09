@@ -1,0 +1,8 @@
+
+fubbit:
+	@sh ./get-fubbit.sh
+
+fubbitrm:
+	@rm -rf "deps/fubbit"
+	@rm -rf "deps/amqp_client"
+	@rm -rf "deps/rabbit_common"
